@@ -8,9 +8,10 @@ public class CustomText extends GraphicalUnit {
         this.text = text;
     }
 
+
     @Override
     public void print() {
-        System.out.println(text);
+        System.out.println(text + "\n");
     }
 
 }

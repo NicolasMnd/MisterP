@@ -31,6 +31,7 @@ public class Header extends GraphicalUnit {
         printDivider();
         Printer.printCenter(ansi().fg(colorText).a(text).toString(), width);
         printDivider();
+        System.out.println("");
     }
 
     private void printDivider() {

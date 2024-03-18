@@ -36,7 +36,7 @@ public class OptionDisplay extends GraphicalUnit {
         for(int i = 0; i < options.length; i++) {
             System.out.print(ansi().fg(WHITE).a(whitespace).a("[").fg(colorLetter).a(Character.toString(options[i].toUpperCase().charAt(0))).fg(colorRest).a("]").a(options[i].toLowerCase().substring(1)));
         }
-        System.out.println(ansi().fg(colorPrompt).a("\nEnter: "));
+        System.out.println(ansi().fg(colorPrompt).a("\n\nEnter: "));
 
 
     }
