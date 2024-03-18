@@ -67,7 +67,14 @@ public class InputHandler {
      * @return a string value with numbers only
      */
     public static String getNumberPart(String input) {
-        return input.replaceAll("[^0-9]", "");
+        String numberStr = input.replaceAll("[^0-9]", "");
+        try {
+            int i = Integer.parseInt(numberStr);
+            return numberStr;
+        } catch(NumberFormatException e) {
+            // Unlucky
+        }
+        return null;
     }
 
 
