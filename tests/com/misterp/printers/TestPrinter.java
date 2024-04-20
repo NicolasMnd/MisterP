@@ -1,7 +1,5 @@
 package com.misterp.printers;
 
-import com.misterp.core.MisterP;
-import com.misterp.printers.DebugPrinter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

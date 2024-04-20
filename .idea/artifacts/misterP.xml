@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="misterP">
+    <output-path>$PROJECT_DIR$/out/artifacts/misterP</output-path>
+    <root id="archive" name="misterP.jar">
+      <element id="module-output" name="MisterP" />
+      <element id="library" level="project" name="jansi-2.4.0" />
+    </root>
+  </artifact>
+</component>

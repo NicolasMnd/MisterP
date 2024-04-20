@@ -29,6 +29,10 @@ public class OptionDisplay extends GraphicalUnit {
         this.whitespace = whitespace;
     }
 
+    public String[] getOptions() {
+        return this.options;
+    }
+
     @Override
     public void print() {
 

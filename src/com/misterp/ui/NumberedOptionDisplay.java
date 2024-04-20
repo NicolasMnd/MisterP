@@ -29,6 +29,10 @@ public class NumberedOptionDisplay extends GraphicalUnit {
         this.whitespace = whitespace;
     }
 
+    public int getAmount() {
+        return this.options.length;
+    }
+
     @Override
     public void print() {
 
@@ -36,7 +40,7 @@ public class NumberedOptionDisplay extends GraphicalUnit {
         System.out.println();
 
         for(int i = 0; i < options.length; i++)
-            System.out.println(ansi().fg(colorNumbers).a(") ").fg(colorOptions).a(options[i]));
+            System.out.println(ansi().fg(colorNumbers).a(Integer.toString(i+1) + ") ").fg(colorOptions).a(options[i]));
         System.out.println("\n");
 
     }
