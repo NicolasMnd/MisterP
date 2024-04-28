@@ -43,7 +43,7 @@ public class Header extends GraphicalUnit {
             i += 1;
         }
 
-        System.out.println(ansi().fg(colorDivider).a(divider));
+        System.out.println(ansi().fg(colorDivider).a(divider).reset());
     }
 
 }
